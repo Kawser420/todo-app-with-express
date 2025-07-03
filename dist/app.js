@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 app.get("/", (req, res) => {
-    res.send("Hello World! and created express server");
+    res.send("I am learning express!!!");
 });
 // [app]-[express.json()]-[todosRouter]-[Root Route "/"]-[GET "/todos"]-[POST Create ToDo]
 //[todosRouter]-[get all todos /todos GET]-[create todo /todos/create-todo POST todo]

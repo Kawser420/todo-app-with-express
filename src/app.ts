@@ -2,7 +2,7 @@ import express, { Application, Request, Response } from "express";
 const app: Application = express();
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello World! and created express server");
+  res.send("I am learning express!!!");
 });
 
 // [app]-[express.json()]-[todosRouter]-[Root Route "/"]-[GET "/todos"]-[POST Create ToDo]
