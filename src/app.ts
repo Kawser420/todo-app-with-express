@@ -1,8 +1,28 @@
 import express, { Application, Request, Response } from "express";
+import fs from "fs";
+import path from "path";
+
 const app: Application = express();
 
+const filepath = path.join(__dirname, "../db/todo.json");
+
+// ToDo Home
 app.get("/", (req: Request, res: Response) => {
-  res.send("I am learning express!!!");
+  res.send("I am learning express with TypeScript");
+});
+
+// GET All ToDos
+app.get("/todos", (req: Request, res: Response) => {
+  const data = fs.readFileSync(filepath, { encoding: "utf-8" });
+  console.log(data);
+  res.json(data);
+});
+
+// POST ToDo
+app.post("/todos/create-todo", (req: Request, res: Response) => {
+  const data = req.body;
+  console.log(data);
+  res.send("create todo");
 });
 
 // [app]-[express.json()]-[todosRouter]-[Root Route "/"]-[GET "/todos"]-[POST Create ToDo]
