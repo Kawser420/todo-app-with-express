@@ -31,7 +31,7 @@ app.post("/todos/create-todo", (req: Request, res: Response) => {
 export default app;
 
 /**
- * Basic File structure
+ * Basic File Structure
  * server - server handling like - starting, closing, error handling of server. only related to server
  * app file - routing handle, middleware, route related error
  * app folder - app business logic handling like create read update delete, database related works
