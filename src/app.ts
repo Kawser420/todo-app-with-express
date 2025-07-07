@@ -1,7 +1,7 @@
 import express, { Application, Request, Response } from "express";
 import fs from "fs";
 import path from "path";
-
+// express app
 const app: Application = express();
 // filepath
 const filepath = path.join(__dirname, "../db/todo.json");
