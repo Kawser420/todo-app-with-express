@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 // express app
 const app: Application = express();
-// filepath
+// filepath is here
 const filepath = path.join(__dirname, "../db/todo.json");
 
 // ToDo Home
