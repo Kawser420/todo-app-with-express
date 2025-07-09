@@ -1,5 +1,6 @@
 import app from "./app";
 
+// load server
 let server;
 const port = 5000;
 
