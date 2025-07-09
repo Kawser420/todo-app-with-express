@@ -10,5 +10,5 @@ const bootstrap = async () => {
     console.log(`Example app listening on port ${port}`);
   });
 };
-
+// call bootstrap
 bootstrap();
