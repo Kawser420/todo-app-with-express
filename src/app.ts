@@ -34,5 +34,5 @@ export default app;
  * Basic File Structure
  * Server - server handling like - starting, closing, error handling of server. only related to server
  * App File - routing handle, middleware, route related error
- * app folder - app business logic handling like create read update delete, database related works
+ * App Folder - app business logic handling like create read update delete, database related works
  */
