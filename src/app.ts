@@ -32,7 +32,7 @@ export default app;
 
 /**
  * Basic File Structure
- * Server - server handling like - starting, closing, error handling of server. only related to server
- * App File - routing handle, middleware, route related error
- * App Folder - app business logic handling like create read update delete, database related works
+ * Server - server handling like - starting, closing, error handling of server. only related to server.
+ * App File - routing handle, middleware, route related error.
+ * App Folder - app business logic handling like create read update delete, database related works.
  */
